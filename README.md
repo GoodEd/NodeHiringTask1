@@ -6,7 +6,8 @@ Design a nodejs server & client react application to interact with your youtube 
 2. It should allow updating/modifying an existing video on youtube channel. Fields such as title, description and video privacy settings can be updated. Video to update should be identified using youtube video unique id. (https://developers.google.com/youtube/v3/docs/videos#properties)
 
 ### Technical requirements: 
-React client side code must not access youtube apis directly. It should only access nodejs application apis which can access youtube apis. This is required for security purposes as you want to misuse of youtube credentials by hackers.
+* React client side code must not access youtube apis directly. It should only access nodejs application apis which can access youtube apis. This is required for security purposes as you want to misuse of youtube credentials by hackers.
+* The API middleware to be used is GraphQL. 
  
 ### Useful Link: 
 https://developers.google.com/youtube/v3/quickstart/nodejs
